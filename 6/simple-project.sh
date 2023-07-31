@@ -23,10 +23,6 @@ sudo apt install python3-django
 
 vagrant plugin install vagrant-scp
 
-# Install plugin for copying
-
-vagrant plugin install vagrant-scp
-
 # Copy file from host to VM
 
 vagrant scp C:\Users\kmakovskiy\Documents\table.csv Ubuntu18:\home\user\
